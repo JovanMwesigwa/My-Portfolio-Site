@@ -1,0 +1,21 @@
+.footer {
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 6rem;
+  }
+
+  .footer-container{
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+
+  .list{
+    list-style-type: none;
+    text-align: start;
+  }
