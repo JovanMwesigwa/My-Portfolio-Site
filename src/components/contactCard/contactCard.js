@@ -1,7 +1,6 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Card from 'react-bootstrap/Card';
-import { Link } from "react-router-dom";
 
 const ContactCard = ({title, url}) => {
     return(
@@ -9,7 +8,7 @@ const ContactCard = ({title, url}) => {
             <Card className="text-center" >
                 <Card.Header>{title}</Card.Header>
                     <Card.Body>
-                        <Link to={url}>{url}</Link>
+                        <a href={url} >{url}</a>
                     </Card.Body>
                 <Card.Footer className="text-muted"></Card.Footer>
             </Card>

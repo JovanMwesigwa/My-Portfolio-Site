@@ -12,7 +12,7 @@ const CardComponent = ({ title, url, description }) => {
                 <Card.Text>
                 {description}
                 </Card.Text>
-                <Button variant="danger">{url}</Button>
+                <Button variant="danger"><a href={url} style={{ color: "white" }} >{url}</a></Button>
             </Card.Body>
         </Card> 
     )

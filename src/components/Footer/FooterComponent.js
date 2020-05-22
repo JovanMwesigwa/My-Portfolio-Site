@@ -18,9 +18,10 @@ const FooterComponent = () => {
                 <div>
                     <h1>My Socials</h1>
                     <ul className="list">
-                        <li>Github:<Link to="https://github.com/JovanMwesigwa" >Jovan Mwesigwa</Link> </li>
-                        <li>Email: jovanmwesigwa79@gmail.com</li>
-                        <li>Facebook: <Link to="https://www.facebook.com/mwesigwa.jovan" >Jovan Mwesigwa</Link></li>
+                                    
+                        <li>Github: <a href="https://github.com/JovanMwesigwa">Jovan Mwesigwa</a></li>
+                        <li>Email: jovanmwesigwa79@gmail.com</li>                       
+                        <li>Facebook: <a href="https://www.facebook.com/mwesigwa.jovan">Jovan Mwesigwa</a></li>
                     </ul>                
                 </div>            
             </div>
