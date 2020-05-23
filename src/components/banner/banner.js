@@ -12,13 +12,13 @@ const BannerComponent = () => {
                             <img src={require("../../assets/images/githublogo.png")} alt="logo" style={{ flex: 1, width: "5rem", }} />
                         </a> 
                     </div>
-                    <div style={{ margin: 40, paddingBottom: 10  }}>
-                        <Link to='/'>
+                    <div style={{ margin: 40, paddingBottom: 10  }}>   
+                        <a href="https://www.linkedin.com/in/jovan-mwesigwa-43b7a3128/" >
                             <img src={require("../../assets/images/linkedInlogo.png")} alt="logo" style={{flex: 1,  width: "5rem" }} />
-                        </Link>   
+                        </a>
                     </div>
                     <div style={{ margin: 40, paddingBottom: 10  }}>
-                        <a href="https://www.facebook.com/mwesigwa.jovan">
+                        <a href="https://www.facebook.com/cyfer.jovan2">
                             <img src={require("../../assets/images/facebook.png")} alt="logo" style={{flex: 1, width: "5rem" }} />
                         </a>
                     </div>
