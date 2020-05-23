@@ -1,7 +1,22 @@
 .header-style{    
     color: #0A0D0D; 
-    font-size: 47; 
     font-weight: bold;
     letter-spacing: 3;
-    text-align: start;            
+    text-align: start;
+    font-size:5vw;            
+}
+
+.header2-style{
+    color: #DE0D4F;
+    font-weight: bold; 
+    letter-spacing: 3;
+    text-align: left;
+    font-size:3vw;
+}
+
+.p-styles{
+    color: #DE0D4F;
+    font-size:2vw;
+    letter-spacing: 3;
+    text-align: left;
 }

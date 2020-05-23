@@ -5,7 +5,6 @@ import Col from 'react-bootstrap/Col';
 import { Link } from 'react-router-dom';
 import './style.css';
 
-
 const HeaderComponent = () => {
     return(
           
@@ -24,20 +23,9 @@ const HeaderComponent = () => {
                     <Container>
                         <Col>
                         
-                            <h1 className="header-style" >WEBSITE DEVELOPER </h1>
-                            <h2 className="header2-style" style={{ 
-                                color: "#DE0D4F", fontSize: 32,
-                                fontWeight: "bold", 
-                                letterSpacing: 3,
-                                textAlign: "left" ,              
-                                }}
-                            >FOR YOUR BUSINESS</h2>
-                            <p style={{ 
-                                color: "#DE0D4F", fontSize: 20,
-                                letterSpacing: 3,
-                                textAlign: "left" ,                 
-                                }}
-                            >Showcase your business with thousands of customers onLine with a web application</p>
+                            <h1 className="header-style" >PROFESSIONAL WEBSITE DEVELOPER </h1>
+                            <h2 className="header2-style" >FOR YOUR BUSINESS</h2>
+                            <p className="p-styles" >Showcase your business with thousands of customers onLine with a web application</p>
                             <Link to="/about-me" style={{ backgroundColor: "#DB184C",
                                                         textDecoration: "none", color: "#fff", 
                                                         float: "left", padding: 10, width: 200, fontSize: 20 }}
@@ -61,19 +49,11 @@ const HeaderComponent = () => {
                     <Col>
                     
                     <h1 className="header-style" 
-                    >PROFESSIONAL AND 
+                    >PROFESSIONAL AND <br></br>
                     RESPONSIVE DESIGNS
                     </h1>
-                    <h2  style={{ 
-                        color: "#DE0D4F", fontSize: 32,
-                        fontWeight: "bold", 
-                        letterSpacing: 3,
-                        textAlign: "left" ,
-                                        
-                    }}
-                    >FOR YOUR BUSINESS</h2>
-                    <p style={{ color: "#DE0D4F", fontSize: 20,letterSpacing: 3,textAlign: "left" ,padding: 10 }}
-                    >Showcase your business with thousands of customers  onLine with a web application</p>
+                    <h2 className="header2-style" >FOR YOUR BUSINESS</h2>
+                    <p className="p-styles" >Showcase your business with thousands of customers <br></br> onLine with a web application</p>
                     <Link to="/about-me" style={{ backgroundColor: "#DB184C",
                                                 textDecoration: "none", color: "#fff", 
                                                 float: "left", padding: 10, width: 200, fontSize: 20 }}
