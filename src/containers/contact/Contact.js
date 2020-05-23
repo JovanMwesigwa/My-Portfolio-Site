@@ -3,6 +3,7 @@ import NavbarComponent from "../../components/Navbar/NavbarComponent";
 import BannerComponent from "../../components/banner/banner";
 import FooterComponent from "../../components/Footer/FooterComponent";
 import ContactCard from "../../components/contactCard/contactCard";
+import Container from 'react-bootstrap/Container';
 
 
 const Contact = () => {
@@ -15,10 +16,13 @@ const Contact = () => {
         {title: "My Mobile", url: "+256700719619"},
     ])
     return(
+        
         <div>
             <div style={{ paddingBottom: "8rem" }}>
-                <div style={{padding: 50, backgroundColor: "#212626", width: "100%" }}>
-                    <h1 style={{ color: "#EBEBEB", margin: 30, height: "1rem" }}>About Me</h1>
+                <div style={{padding: 50, backgroundColor: "#212626", width: "100%", height: "100%" }}>
+                    <Container>                   
+                        <h1 style={{ color: "#EBEBEB", margin: 30, height: "1rem", paddingTop: 10 }}>Contact Me</h1>
+                    </Container>
                 </div>
                 <NavbarComponent />
                 <BannerComponent />

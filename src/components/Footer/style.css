@@ -6,7 +6,8 @@
     background-color: black;
     color: white;
     text-align: center;
-    padding: 6rem;
+    padding: 3rem;
+
   }
 
   .footer-container{
@@ -18,4 +19,11 @@
   .list{
     list-style-type: none;
     text-align: start;
+
   }
+  .socials-list{
+    list-style-type: none;
+    text-align: start;
+    
+  }
+  

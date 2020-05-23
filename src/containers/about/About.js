@@ -8,8 +8,10 @@ import FooterComponent from "../../components/Footer/FooterComponent";
 const About = () => {
     return(
         <div>
-            <div style={{padding: 50, backgroundColor: "#212626", width: "100%" }}>
-                <h1 style={{ color: "#EBEBEB", margin: 30, height: "1rem" }}>About Me</h1>
+            <div style={{padding: 50, backgroundColor: "#212626", width: "100%", height: "100%" }}>
+                <Container>                   
+                     <h1 style={{ color: "#EBEBEB", margin: 30, height: "1rem", paddingTop: 10 }}>About Me</h1>
+                </Container>
             </div>
             <NavbarComponent />
             <BannerComponent />
@@ -33,9 +35,30 @@ const About = () => {
                         <p></p> 
                         patterns.<br /> 
                         <p></p>
-                        I also do API design using Django RestFramework<br />
+                        I also do API design using the Django Rest-framework<br />
                         <p></p>
-                        and PostMan                      
+                        and PostMan to test them .<br></br>
+                        <p></p>
+                        In 2019 I was involved in an IOT and embedded sytems<br></br> 
+                        <p></p>
+                        design  at a local company  in Kampala.
+                        <p></p>
+                        called Supercomm Technologies where we were programming <br></br> 
+                        <p></p>
+                        in C++ and Arduino, we designed websites <br></br> 
+                        <p></p>
+                        with WordPress and I attained a Certificate as a Junior developer. <br></br>
+                        <p></p>
+                        Later that year I joined in the Africa Codes program where I <br></br>
+                        <p></p>
+                        worked with the IEEE foundation to teach High School Students and <br></br>
+                        <p></p>
+                        kids around the country how to code in Python and Javascript <br></br>
+                        <p></p>
+                        where I also attained a certificate doing that.<br></br>
+                        
+                        
+
                     </h5>
                 </Card>
             </Container>

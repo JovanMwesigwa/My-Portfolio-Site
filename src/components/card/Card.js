@@ -1,8 +1,9 @@
-import React from "react";
+import React from "react";  
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button'
 
 const CardComponent = ({ title, url, description }) => {
+    
     return(
         
         <Card border="warning" style={{ width: '18rem', padding: 15 }}>
@@ -12,7 +13,7 @@ const CardComponent = ({ title, url, description }) => {
                 <Card.Text>
                 {description}
                 </Card.Text>
-                <Button variant="danger"><a href={url} style={{ color: "white" }} >{url}</a></Button>
+                <Button variant="danger" style={{ width: "100%" }}><a href={url} style={{ color: "white" }} >{url}</a></Button>
             </Card.Body>
         </Card> 
     )

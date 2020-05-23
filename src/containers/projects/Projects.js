@@ -14,8 +14,10 @@ const Project = () => {
     ])
     return(
         <div>
-            <div style={{padding: 50, backgroundColor: "#212626", width: "100%" }}>
-                <h1 style={{ color: "#EBEBEB", margin: 30, height: "1rem" }}>My Projects</h1>
+            <div style={{padding: 50, backgroundColor: "#212626", width: "100%", height: "100%" }}>
+                <Container>                   
+                     <h1 style={{ color: "#EBEBEB", margin: 30, height: "1rem", paddingTop: 10 }}>My Projects</h1>
+                </Container>
             </div>
             <NavbarComponent />
             <BannerComponent />
